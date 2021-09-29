@@ -117,7 +117,10 @@ export function Video() {
     return (
         <div className={'player'} ref={player}>
             <video className={'video'} ref={media} src={source} poster={poster} onTimeUpdate={onTimeUpdate}
-                   onLoadedMetadata={setVideo} onClick={playPause} onPause={() => {setPaused(true)}} onPlay={() => setPaused(false)} onVolumeChange={(e) => setVolume(e.currentTarget.volume)}>
+                   onLoadedMetadata={setVideo} onClick={playPause} onPause={() => {setPaused(true)}} onPlay={() => setPaused(false)} onVolumeChange={(e) => {
+                setVolume(e.currentTarget.volume)
+                setMuted(false)
+            }}>
                 Your browser doesn't support HTML5 video.
             </video>
             <div className={controllersClassName}>
