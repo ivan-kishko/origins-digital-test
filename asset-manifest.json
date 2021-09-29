@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/origins-digital-test/static/css/main.3bb6ad30.chunk.css",
-    "main.js": "/origins-digital-test/static/js/main.266dd773.chunk.js",
-    "main.js.map": "/origins-digital-test/static/js/main.266dd773.chunk.js.map",
+    "main.css": "/origins-digital-test/static/css/main.84b0c913.chunk.css",
+    "main.js": "/origins-digital-test/static/js/main.bb35e3e7.chunk.js",
+    "main.js.map": "/origins-digital-test/static/js/main.bb35e3e7.chunk.js.map",
     "runtime-main.js": "/origins-digital-test/static/js/runtime-main.612fe115.js",
     "runtime-main.js.map": "/origins-digital-test/static/js/runtime-main.612fe115.js.map",
     "static/js/2.cc41c421.chunk.js": "/origins-digital-test/static/js/2.cc41c421.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.bda3e8c5.chunk.js": "/origins-digital-test/static/js/3.bda3e8c5.chunk.js",
     "static/js/3.bda3e8c5.chunk.js.map": "/origins-digital-test/static/js/3.bda3e8c5.chunk.js.map",
     "index.html": "/origins-digital-test/index.html",
-    "static/css/main.3bb6ad30.chunk.css.map": "/origins-digital-test/static/css/main.3bb6ad30.chunk.css.map",
+    "static/css/main.84b0c913.chunk.css.map": "/origins-digital-test/static/css/main.84b0c913.chunk.css.map",
     "static/js/2.cc41c421.chunk.js.LICENSE.txt": "/origins-digital-test/static/js/2.cc41c421.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.612fe115.js",
     "static/js/2.cc41c421.chunk.js",
-    "static/css/main.3bb6ad30.chunk.css",
-    "static/js/main.266dd773.chunk.js"
+    "static/css/main.84b0c913.chunk.css",
+    "static/js/main.bb35e3e7.chunk.js"
   ]
 }
