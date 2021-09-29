@@ -11,6 +11,7 @@ type ResponseType = {
     data: DataType[]
 }
 
+//api local json
 export const videoAPI = {
     getData() {
         return axios.get<ResponseType>('data.json')
