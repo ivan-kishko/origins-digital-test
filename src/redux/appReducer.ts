@@ -58,7 +58,7 @@ export const fetchDataTC = () => (dispatch: Dispatch) => {
             dispatch(setLoadDataStatus('failed'))
         })
         .finally(() => {
-            dispatch(dispatch(setAppInitStatus('success')))
+            dispatch(setAppInitStatus('success'))
         })
 }
 

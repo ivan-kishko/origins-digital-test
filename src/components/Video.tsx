@@ -5,6 +5,7 @@ import './Video.css'
 import {formatTime} from "../utils/utils";
 
 export function Video() {
+    debugger
     const source = useSelector<AppRootStateType, string>(state => state.app.data[0].url)
     const poster = useSelector<AppRootStateType, string>(state => state.app.data[1].url)
     const media = useRef<HTMLVideoElement>(null!)
@@ -21,14 +22,17 @@ export function Video() {
     const playPause = () => {
         if (media.current.paused || media.current.ended) {
             media.current.play()
+            setPaused(false)
         } else {
             media.current.pause()
+            setPaused(true)
         }
     }
 
     const stopVideo = () => {
         media.current.pause()
         media.current.currentTime = 0
+        setPaused(true)
     }
 
     const onTimeUpdate = () => {
