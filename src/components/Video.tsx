@@ -66,6 +66,7 @@ export function Video() {
     const onChangeVolume = (e: ChangeEvent<HTMLInputElement>) => {
         if (media.current.muted) {
             media.current.muted = false
+            setMuted(false)
         }
         media.current.volume = e.currentTarget.valueAsNumber
         setVolume(e.currentTarget.valueAsNumber)
