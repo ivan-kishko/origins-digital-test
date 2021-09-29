@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/origins-digital-test/static/css/main.3bb6ad30.chunk.css",
-    "main.js": "/origins-digital-test/static/js/main.fea47516.chunk.js",
-    "main.js.map": "/origins-digital-test/static/js/main.fea47516.chunk.js.map",
+    "main.js": "/origins-digital-test/static/js/main.266dd773.chunk.js",
+    "main.js.map": "/origins-digital-test/static/js/main.266dd773.chunk.js.map",
     "runtime-main.js": "/origins-digital-test/static/js/runtime-main.612fe115.js",
     "runtime-main.js.map": "/origins-digital-test/static/js/runtime-main.612fe115.js.map",
     "static/js/2.cc41c421.chunk.js": "/origins-digital-test/static/js/2.cc41c421.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.612fe115.js",
     "static/js/2.cc41c421.chunk.js",
     "static/css/main.3bb6ad30.chunk.css",
-    "static/js/main.fea47516.chunk.js"
+    "static/js/main.266dd773.chunk.js"
   ]
 }
