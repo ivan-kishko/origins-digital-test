@@ -23,10 +23,8 @@ export function Video() {
     const playPause = () => {
         if (media.current.paused || media.current.ended) {
             media.current.play()
-            setPaused(false)
         } else {
             media.current.pause()
-            setPaused(true)
         }
     }
 
@@ -119,7 +117,7 @@ export function Video() {
     return (
         <div className={'player'} ref={player}>
             <video className={'video'} ref={media} src={source} poster={poster} onTimeUpdate={onTimeUpdate}
-                   onLoadedMetadata={setVideo} onClick={playPause} playsInline={true}>
+                   onLoadedMetadata={setVideo} onClick={playPause} onPause={() => {setPaused(true)}} onPlay={() => setPaused(false)}>
                 Your browser doesn't support HTML5 video.
             </video>
             <div className={controllersClassName}>
