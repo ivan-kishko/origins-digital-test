@@ -5,7 +5,6 @@ import './Video.css'
 import {formatTime} from "../utils/utils";
 
 export function Video() {
-    debugger
     const source = useSelector<AppRootStateType, string>(state => state.app.data[0].url)
     const poster = useSelector<AppRootStateType, string>(state => state.app.data[1].url)
     const media = useRef<HTMLVideoElement>(null!)
