@@ -118,9 +118,8 @@ export function Video() {
 
     return (
         <div className={'player'} ref={player}>
-            <video className={'video'} ref={media} poster={poster} onTimeUpdate={onTimeUpdate}
+            <video className={'video'} ref={media} src={source} poster={poster} onTimeUpdate={onTimeUpdate}
                    onLoadedMetadata={setVideo} onClick={playPause}>
-                <source src={source}/>
                 Your browser doesn't support HTML5 video.
             </video>
             <div className={controllersClassName}>
