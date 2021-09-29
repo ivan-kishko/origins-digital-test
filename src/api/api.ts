@@ -13,6 +13,6 @@ type ResponseType = {
 
 export const videoAPI = {
     getData() {
-        return axios.get<ResponseType>('origins-digital-test/data.json')
+        return axios.get<ResponseType>('data.json')
     }
 }

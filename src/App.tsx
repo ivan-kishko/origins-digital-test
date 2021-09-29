@@ -6,7 +6,6 @@ import {fetchDataTC, StatusType} from "./redux/appReducer";
 import {AppRootStateType} from "./redux/store";
 
 function App() {
-    debugger
     const dispatch = useDispatch()
     const init = useSelector<AppRootStateType, StatusType>(state => state.app.appInitStatus)
 

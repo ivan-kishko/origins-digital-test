@@ -18,13 +18,16 @@
 
 .video-controls {
     box-sizing: border-box;
-    z-index: 2147483648;
-    position: absolute;
+    z-index: 2147483647;
     right: 0;
     left: 0;
     bottom: 0;
     padding: 0;
     background-color: black;
+}
+
+.fsmode {
+    position: absolute;
 }
 
 /*seekbar*/
@@ -235,6 +238,7 @@ svg {
     width: 100px;
     opacity: 1;
     transition: all 0.4s ease;
+    display: none;
 }
 
 .volume-controls:hover input, .volume-controls input:focus {
@@ -306,4 +310,49 @@ video::-webkit-media-controls {
 
 video::-webkit-media-controls-enclosure {
     display:none !important;
+}
+
+/*fullscreen*/
+.video-controls:-moz-full-screen {
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+.video-controls:-webkit-full-screen {
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+.video-controls:-ms-full-screen {
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+.video-controls:fullscreen {
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+video:-moz-full-screen {
+    width: 100%;
+    height: 100%;
+}
+
+video:-webkit-full-screen {
+    width: 100%;
+    height: 100%;
+}
+
+video:-ms-full-screen {
+    width: 100%;
+    height: 100%;
+}
+
+video:fullscreen {
+    width: 100%;
+    height: 100%;
 }
