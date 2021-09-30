@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/origins-digital-test/static/css/main.c4fc1c14.chunk.css",
+    "main.css": "/origins-digital-test/static/css/main.4c3fe04e.chunk.css",
     "main.js": "/origins-digital-test/static/js/main.73dad7ac.chunk.js",
     "main.js.map": "/origins-digital-test/static/js/main.73dad7ac.chunk.js.map",
     "runtime-main.js": "/origins-digital-test/static/js/runtime-main.612fe115.js",
@@ -10,13 +10,13 @@
     "static/js/3.bda3e8c5.chunk.js": "/origins-digital-test/static/js/3.bda3e8c5.chunk.js",
     "static/js/3.bda3e8c5.chunk.js.map": "/origins-digital-test/static/js/3.bda3e8c5.chunk.js.map",
     "index.html": "/origins-digital-test/index.html",
-    "static/css/main.c4fc1c14.chunk.css.map": "/origins-digital-test/static/css/main.c4fc1c14.chunk.css.map",
+    "static/css/main.4c3fe04e.chunk.css.map": "/origins-digital-test/static/css/main.4c3fe04e.chunk.css.map",
     "static/js/2.cc41c421.chunk.js.LICENSE.txt": "/origins-digital-test/static/js/2.cc41c421.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.612fe115.js",
     "static/js/2.cc41c421.chunk.js",
-    "static/css/main.c4fc1c14.chunk.css",
+    "static/css/main.4c3fe04e.chunk.css",
     "static/js/main.73dad7ac.chunk.js"
   ]
 }
