@@ -289,17 +289,17 @@ button {
     margin-left: 10px;
 }
 
+.video-controls-right {
+    display: flex;
+    flex-direction: row;
+}
+
 @media all
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
     .video-controls-right {
         display: none;
     }
-}
-
-.video-controls-right {
-    display: flex;
-    flex-direction: row;
 }
 
 .volume-button {
