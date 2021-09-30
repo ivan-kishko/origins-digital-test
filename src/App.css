@@ -1,6 +1,6 @@
 .app {
-    background: rgb(0,228,255);
-    background: linear-gradient(180deg, rgba(0,228,255,1) 0%, rgba(0,219,255,1) 56%, rgba(0,255,226,1) 100%);
+    background: rgb(0,206,255);
+    background: linear-gradient(180deg, rgba(0,206,255,1) 0%, rgba(0,255,222,1) 55%, rgba(0,255,166,1) 100%);
     display: flex;
     flex-direction: row;
     justify-content: center;
