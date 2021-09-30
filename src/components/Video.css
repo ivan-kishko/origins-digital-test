@@ -289,7 +289,9 @@ button {
     margin-left: 10px;
 }
 
-@media (orientation: portrait) {
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
     .video-controls-right {
         display: none;
     }
